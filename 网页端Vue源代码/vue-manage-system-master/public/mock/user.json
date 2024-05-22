@@ -1,0 +1,70 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "canteen_name": "环湖园",
+            "restaurant_name": "爆辣青年",
+            "restaurant_id": "11",
+            "accounts": "11",
+            "password": "123456",
+            "dish_number": "5",
+            "dish_name": "辣椒盖饭",
+            "dish_id": "111",
+            "order_id": "222",
+            "order_state":"未完成"
+        },
+        {
+            "id": 1,
+            "canteen_name": "望湖园",
+            "restaurant_name": "黄焖鸡米饭",
+            "restaurant_id": "21",
+            "accounts": "21",
+            "password": "123456",
+            "dish_number": "5",
+            "dish_name": "辣椒盖饭",
+            "dish_id": "111",
+            "order_id": "222",
+            "order_state":"未完成"
+        },
+        {
+            "id": 1,
+            "canteen_name": "望湖园",
+            "restaurant_name": "黄焖鸡米饭",
+            "restaurant_id": "21",
+            "accounts": "21",
+            "password": "123456",
+            "dish_number": "5",
+            "dish_name": "辣椒盖饭",
+            "dish_id": "111",
+            "order_id": "222",
+            "order_state":"未完成"
+        },
+        {
+            "id": 1,
+            "canteen_name": "望湖园",
+            "restaurant_name": "黄焖鸡米饭",
+            "restaurant_id": "21",
+            "accounts": "21",
+            "password": "123456",
+            "dish_number": "5",
+            "dish_name": "辣椒盖饭",
+            "dish_id": "111",
+            "order_id": "222",
+            "order_state":"未完成"
+        },
+        {
+            "id": 1,
+            "canteen_name": "望湖园",
+            "restaurant_name": "黄焖鸡米饭",
+            "restaurant_id": "21",
+            "accounts": "21",
+            "password": "123456",
+            "dish_number": "5",
+            "dish_name": "辣椒盖饭",
+            "dish_id": "111",
+            "order_id": "222",
+            "order_state":"未完成"
+        }
+    ],
+    "pageTotal": 5
+}

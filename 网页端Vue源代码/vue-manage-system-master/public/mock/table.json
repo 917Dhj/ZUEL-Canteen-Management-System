@@ -1,0 +1,44 @@
+{
+    "list": [
+        {
+            "fdnumber": 1,
+            "stuname": "林慧燕",
+            "money": 12,
+            "dishname": "杨枝甘露",
+            "specification": "少冰",
+            "quantity": 1,
+            "address": "福建省厦门市思明区",
+            "state": true,
+            "date": "2019-11-1",
+            "thumb": "https://lin-xin.gitee.io/images/post/wms.png"
+        },
+        {
+            "fdnumber": 2,
+            "stuname": "李四",
+            "money": 456,
+            "address": "广东省广州市白云区",
+            "state": true,
+            "date": "2019-10-11",
+            "thumb": "https://lin-xin.gitee.io/images/post/node3.png"
+        },
+        {
+            "fdnumber": 3,
+            "stuname": "王五",
+            "money": 789,
+            "address": "湖南省长沙市",
+            "state": false,
+            "date": "2019-11-11",
+            "thumb": "https://lin-xin.gitee.io/images/post/parcel.png"
+        },
+        {
+            "fdnumber": 4,
+            "stuname": "赵六",
+            "money": 1011,
+            "address": "福建省厦门市鼓浪屿",
+            "state": true,
+            "date": "2019-10-20",
+            "thumb": "https://lin-xin.gitee.io/images/post/notice.png"
+        }
+    ],
+    "pageTotal": 4
+}
