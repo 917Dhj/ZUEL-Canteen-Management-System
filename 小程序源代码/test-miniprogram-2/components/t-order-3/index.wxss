@@ -1,0 +1,103 @@
+/* components/t-cell/index.wxss */
+
+.gap {
+  height: 15px;
+}
+
+.comment-list-bottom {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-size: 14px;
+}
+
+.top-block {
+  display: flex;  
+  align-items: center; /* 垂直居中 */  
+  justify-content: space-between; /* 使status位于最右边 */ 
+  color: black !important;
+}
+
+.canteenName {
+  font-size: 16px; 
+  margin-right: 5rpx; /* 除了status外的元素右边距为10rpx */ 
+}
+
+.restaurantID {
+  font-size: 16px; 
+  margin-left: 20rpx;
+}
+.orderID {
+  font-size: 12px; 
+  margin-left: 80rpx;
+}
+.status {
+  display: right;
+  font-size: 16px; 
+  margin-right: 0; 
+}
+
+.middle-block {
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  display: flex;  
+  align-items: center; /* 垂直居中 */  
+  justify-content: space-between; /* 使status位于最右边 */ 
+}
+  
+.container1 {  
+  flex: 1; /* 宽度比例为3 */  
+}  
+  
+.container2 {  
+  flex: 9; /* 宽度比例为7 */ 
+  display: flex;  
+  flex-direction: column; /* 子容器垂直排列 */  
+}  
+  
+.top-row {  
+  display: flex;  
+  justify-content: space-between; /* dishName靠左，price靠右 */  
+  margin-bottom: 5px; /* 可选：为两行文本之间添加一些间距 */  
+}  
+  
+/* .bottom-row {  
+} */
+
+.orderImage {
+  width: 30rpx;
+  height:30rpx;
+}
+ 
+.container {  
+  display: flex;  
+  flex-direction: row;  
+  align-items: center; /* 垂直居中 */
+  padding-left: 40rpx;  
+}  
+
+.dishName {  
+  font-size: 30rpx;
+  margin-right: 300rpx; /* 与价格之间的距离 */  
+  margin-left: 20rpx;
+  color: black !important;
+}  
+.pungencyDegree-seasoning{
+  font-size:24rpx;
+}
+.price { 
+    font-size: 30rpx; 
+    color: black !important;
+}  
+
+.bottom-block {  
+  display: flex;  
+  justify-content: flex-end; /* 使按钮靠右对齐 */  
+}  
+  
+.button { 
+  border-width: 3px; /* 设置边框宽度为2px */   
+  margin-right: 10rpx; /* 为“售后”按钮添加右边距 */  
+  border-color: gray !important; /* 设置外边框为灰色 */  
+  color: black !important; /* 设置文字颜色为黑色 */ 
+}

@@ -1,0 +1,55 @@
+/* components/t-cell/index.wxss */
+
+.gap {
+  height: 15px;
+}
+
+.avatar-example {
+  margin-right: 20rpx;
+}
+
+.user-info {
+  display: flex;
+}
+
+.user-id {
+  padding-top: 5rpx;
+  line-height: 1.2;
+}
+
+.user-name {
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+.date {
+  font-size: 12px;
+  color: gray;
+}
+
+.comment-container {
+  padding-top: 15rpx;
+  line-height: 1.8;
+}
+
+.comment-title {
+  font-size: 18px;
+  font-weight: bolder;
+  color: black;
+}
+
+.comment-context {
+  font-size: 14px;
+}
+
+.bottom-container {
+  margin-top: 15rpx;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.icon {
+  margin-left: 25px;
+  margin-right: 25px;
+  z-index: 0;
+}

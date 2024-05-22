@@ -1,0 +1,7 @@
+<view class="custom-popup" wx:if="{{show}}">  
+  <image class="popup-image" src="https://www.imgbb.host/images/OyvM7.jpeg" mode="aspectFit"></image>  
+  <view class="popup-buttons">  
+    <view class="btn1"><button bindtap="onConfirm">确定</button></view>
+    <view class="btn2"><button bindtap="onCancel">取消</button> </view>
+  </view>  
+</view>

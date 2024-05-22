@@ -1,0 +1,57 @@
+{
+  "usingComponents": {},
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/food/food"
+      },
+      {
+        "pagePath": "pages/order/order"
+      },
+      {
+        "pagePath": "pages/user/user"
+      }
+    ]
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/food/food",
+    "pages/food/page1",
+    "pages/food/page2",
+    "pages/food/page3",
+    "pages/food/page4",
+    "pages/food/page5",
+    "pages/food/diandan",
+    "pages/order/order",
+    "pages/user/user",
+    "pages/editPost/editPost",
+    "pages/editPost2/editPost2",
+    "pages/postDetail/postDetail",
+    "pages/feedback/feedback",
+    "pages/modify/modify",
+    "pages/modify/modifyName",
+    "pages/modify/modifyPassword",
+    "pages/modify/modifyFigure",
+    "pages/orderDetail/orderDetail",
+    "pages/refundDetail/refundDetail",
+    "pages/refundApply/refundApply",
+    "pages/userMessage/userMessage"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "中南大饭圈",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

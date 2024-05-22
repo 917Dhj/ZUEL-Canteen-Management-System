@@ -1,0 +1,41 @@
+<!--components/t-cell-2/index.wxml-->
+<block wx:for="{{cardList}}" wx:key="index">
+  <van-cell-group inset class="custom-class">
+    <van-cell class="van-cell" size="large" use-label-slot="true" clickable="true" bind:click="clickCell" data-index="{{index}}">
+      <!-- 头像&用户ID&发帖日期 -->
+      <view slot="title" class="user-info">
+        <t-avatar class="avatar-example" image="{{item.posterFigure}}" size="small" />
+        <view class="user-id">
+          <view class="user-name">{{item.posterName}}</view>
+          <view class="date">{{item.postDate}}</view>
+        </view>
+      </view>
+      <!-- 帖子标题和内容 -->
+      <view slot="label" class="comment-container">
+        <view>
+          <text class="comment-title">{{item.postTitle}}</text>
+        </view>
+        <view>
+          <text class="comment-context">{{item.postContext}}</text>
+        </view>
+      </view>
+    </van-cell>
+    <van-cell>
+      <view class="bottom-container">
+        <van-icon class="icon" name="comment-o" info="{{item.commentsCount}}" size="25px" bind:click="clickCell" data-index="{{index}}" />
+        <van-icon class="icon" name="{{item.icon_star}}" info="{{item.starsCount}}" size="25px" color="#EA3F4A" bind:click="clickStar" data-index="{{index}}"/>
+        <van-icon class="icon" name="{{item.icon_like}}" info="{{item.likesCount}}" size="25px" color="#EA3F4A" bind:click="clickLike" data-index="{{index}}"/>
+      </view>
+    </van-cell>
+  </van-cell-group>
+  <view class="gap"></view>
+</block>
+<van-dialog
+  title="请登录后再使用该功能"
+  show="{{ show }}"
+  show-cancel-button
+  confirm-button-text="去登录"
+  bind:close="onClose"
+  bind:confirm="onConfirm"
+  bind:cancel="onClose"
+/>

@@ -1,0 +1,42 @@
+<!--components/t-order/index.wxml-->
+<view class="comment-list-bottom" wx:if="{{cardList.length == 0}}">您还没有订单，快去下单吧～</view>
+<block wx:for="{{cardList}}" wx:key="index">
+  <van-cell-group inset class="custom-class">
+    <van-cell class="van-cell" size="large" >
+    <!-- 商家名称和订单状态 -->  
+    <view class="top-block"clickable="true" bindtap="navigateToOrderDetail" data-id="{{item.orderID}}"  data-cant="{{item.canteenName}}"  data-rest="{{item.restaurantID}}" data-dish="{{item.dishName}}" data-price="{{item.price}}" data-pungency="{{item.pungencyDegree}}" data-season="{{item.seasoning}}" data-notes="{{item.seasoning}}">  
+      <view>
+          <text class="canteenName">{{item.canteenName}}</text>  
+          <text class="restaurantID">{{item.restaurantID}}</text>
+          <text class="orderID">{{item.orderID}}</text>
+      </view>
+      <view>
+          <text class="status">{{item.status}}</text>
+      </view>  
+    </view> 
+      
+    <!-- 菜品图片、菜品名称和单价 -->  
+    <view class="middle-block">  
+      <view class="container1">
+        <van-image width="80rpx" height="80rpx" src="https://tdesign.gtimg.com/mobile/demos/example2.png" />
+      </view>
+      <view class="container2">
+        <view class="top-row">
+          <text class="dishName">{{item.dishName}}</text>  
+        <text class="price">¥{{item.price}}</text> 
+        </view> 
+        <view class="bottom-row">
+          <text class="pungencyDegree-seasoning">{{item.pungencyDegree}}/{{item.seasoning}}</text> 
+        </view>
+      </view>
+    </view>  
+      
+    <!-- 确认收货和售后按钮 -->  
+    <view class="bottom-block">    
+      <van-button plain hairline size="small" class="button" bindtap="goToRefundDetail" data-price="{{item.price}}" data-id="{{item.orderID}}" data-dish="{{item.dishName}}" >售后详情</van-button>   
+    </view>   
+    </van-cell>
+  </van-cell-group>
+  <view class="gap"></view>
+</block>
+

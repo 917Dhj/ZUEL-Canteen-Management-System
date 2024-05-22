@@ -1,0 +1,40 @@
+.custom-popup {  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  width: 100%;  
+  height: 100%;  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  justify-content: center;  
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */  
+  z-index: 9999; /* 确保弹窗在最上层 */  
+}  
+  
+.popup-image {  
+  width: 500px; /* 根据需要设置二维码或图片大小 */  
+  height: 400px;  
+}  
+  
+.popup-buttons {  
+  box-sizing: border-box; 
+  height: 100rpx;
+  width: 100%;
+  margin: 20rpx;
+}
+.btn1{
+  box-sizing: border-box;
+  float: left;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  width: 50%;
+  height: 50rpx;
+}
+.btn2{
+  box-sizing: border-box;
+  float: right;
+  padding-right: 30rpx;
+  width: 50%;
+  height: 50rpx;
+}

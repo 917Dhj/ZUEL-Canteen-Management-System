@@ -1,0 +1,7 @@
+<!--custom-tab-bar/index.wxml-->
+<!-- 底部导航栏 -->
+<van-tabbar active="{{ active }}" bind:change="onChange" placeholder="true">
+  <van-tabbar-item wx:for="{{ list }}" wx:key="index" icon="{{ item.icon }}">{{
+    item.text
+  }}</van-tabbar-item>
+</van-tabbar>
